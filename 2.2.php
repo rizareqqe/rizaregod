@@ -10,7 +10,7 @@ for ($n = 2; $n <= $limit; $n++) {
 
  for ($a = 2; $a < $n; $a++) {
 
-  if ($n % $a == 0) {
+  if ($n % $a === 0) {
 
    $b = false;
 
