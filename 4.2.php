@@ -7,13 +7,13 @@ function isPerfectNumber($N)
 
 
  for ($i = 1; $i < $N; $i++) {
-  if ($N % $i == 0) {
+  if ($N % $i === 0) {
    $sum = $sum + $i;
   }
  }
 
 
- return $sum == $N;
+ return $sum === $N;
 }
 
 
